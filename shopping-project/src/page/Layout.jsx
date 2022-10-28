@@ -6,7 +6,9 @@ const Layout = () => {
     <div>
       <NavbarComp />
       {/* Outlet을 통해서 화면 구성 */}
-      <Outlet />
+      <div className="mt-3">
+        <Outlet />
+      </div>
     </div>
   );
 }

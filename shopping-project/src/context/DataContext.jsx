@@ -17,30 +17,45 @@ const DataProvider = ({children}) =>{
       productId : 1,
       productName : "책",
       productDetail : "리액트를 알려주는 책입니다",
-      porductColor : ["white", "black"],
-      productPicture : "1.PNG"
+      productColor : ["white", "black"],
+      productPicture : ["1.PNG", "1-2.PNG"]
     },
     {
       productId : 2,
       productName : "책2",
       productDetail : "리액트를 알려주는 책입니다",
-      porductColor : ["white", "black"],
-      productPicture : "1.PNG"
+      productColor : ["white", "black"],
+      productPicture : ["1.PNG"]
     },
     {
       productId : 3,
       productName : "책3",
       productDetail : "리액트를 알려주는 책입니다",
-      porductColor : ["white", "black"],
-      productPicture : "1.PNG"
+      productColor : ["white", "black"],
+      productPicture : ["1.PNG"]
     }
   ])
   // 댓글정보
+  const [allComments, setAllComments] = useState([
+    {
+      commentId: 1,
+      productId : 1,
+      name: "green",
+      text: "좋은 책입니다"
+    },
+    {
+      commentId: 2,
+      productId : 1,
+      name: "blue",
+      text: "괜찮습니다"
+    },
+
+  ]);
 
   // 사용할 value 값을 state와 action으로 분리해서 넣어둠
   const value = {
-    state: {user, productList},
-    action: {setUser, setProductList}
+    state: {user, productList, allComments},
+    action: {setUser, setProductList, setAllComments}
   }; 
 
   // DataProvider를 사용할 때 DataContext.Provider를 사용할 수 있도록 함
