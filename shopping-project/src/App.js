@@ -13,6 +13,7 @@ import Layout from './page/Layout';
 import Home from './page/Home';
 import Login from './page/Login';
 import ProductDetail from './page/ProductDetail';
+import Profile from './page/Profile';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route index element={<Home />}/>
             <Route path='/loginform' element={<Login />}/>
             <Route path='product/:id' element={<ProductDetail />}/>
+            <Route path='mypage' element={<Profile />} />
           </Route>
         </Routes>
       </DataProvider>

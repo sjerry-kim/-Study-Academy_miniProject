@@ -10,28 +10,27 @@ import DataContext from "../context/DataContext";
 
 const ProductDetail = () => {
   const data = useContext(DataContext);
-  const [comments, setComments] = useState("");
-
   const {id} = useParams();
+  const [comments, setComments] = useState(
+          data.state.allComments
+          .filter((comment)=>(comment.productId == id)));
 
-  // 마운트 하자마자 값을 들고와서 출력함
+
+  // state.allComment 값이 바뀔 때마다 업데이트
   useEffect(()=>{
-  })
+    setComments(data.state.allComments.filter((comment)=>(comment.productId==id)))
+  },[data.state.allComments])
 
-  const getProduct = () =>{return data.state.productList.find((product)=>(product.productId == id ))}
+  const getProduct = () =>{return data.state.productList
+                            .find((product)=>(product.productId == id ))}
 
   return (
     <div>
       <ProductDisplay product={getProduct()}/>
       <br />
-      <CommentInput />
+      <CommentInput id={id} />
       <ListGroup style={{textAlign: "left"}}>
-        {
-          // 이 내용은 월요일에 값을 따로 저장해서 수정할 예정
-          data.state.allComments
-          .filter((comment)=>(comment.productId == id))
-          .map((comment)=>(<Comment />))
-        }
+        {comments.map((comment)=>(<Comment key={comment.commentId} comment={comment} />))}
       </ListGroup>
     </div>
   );
