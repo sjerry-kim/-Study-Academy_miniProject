@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/css/main.d5f0a030.css",
-    "main.js": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/js/main.70a16b5b.js",
-    "static/js/787.a61f225c.chunk.js": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/js/787.a61f225c.chunk.js",
-    "static/media/1-2.PNG": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/media/1-2.0e562fd1d8e1acbcd3db.PNG",
-    "static/media/1.PNG": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/media/1.f2ab1b41f2a0f80f5b31.PNG",
-    "static/media/slick.svg": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/index.html",
-    "main.d5f0a030.css.map": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/css/main.d5f0a030.css.map",
-    "main.70a16b5b.js.map": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/js/main.70a16b5b.js.map",
-    "787.a61f225c.chunk.js.map": "/sjerry-kim/-Study-Academy_miniProject/tree/master/shopping-project/static/js/787.a61f225c.chunk.js.map"
+    "main.css": "/-Study-Academy_miniProject/static/css/main.989cd6ec.css",
+    "main.js": "/-Study-Academy_miniProject/static/js/main.0b4c88dd.js",
+    "static/js/787.a61f225c.chunk.js": "/-Study-Academy_miniProject/static/js/787.a61f225c.chunk.js",
+    "static/media/1-2.PNG": "/-Study-Academy_miniProject/static/media/1-2.0e562fd1d8e1acbcd3db.PNG",
+    "static/media/1.PNG": "/-Study-Academy_miniProject/static/media/1.f2ab1b41f2a0f80f5b31.PNG",
+    "static/media/slick.svg": "/-Study-Academy_miniProject/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/-Study-Academy_miniProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/-Study-Academy_miniProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/-Study-Academy_miniProject/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/-Study-Academy_miniProject/index.html",
+    "main.989cd6ec.css.map": "/-Study-Academy_miniProject/static/css/main.989cd6ec.css.map",
+    "main.0b4c88dd.js.map": "/-Study-Academy_miniProject/static/js/main.0b4c88dd.js.map",
+    "787.a61f225c.chunk.js.map": "/-Study-Academy_miniProject/static/js/787.a61f225c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5f0a030.css",
-    "static/js/main.70a16b5b.js"
+    "static/css/main.989cd6ec.css",
+    "static/js/main.0b4c88dd.js"
   ]
 }
