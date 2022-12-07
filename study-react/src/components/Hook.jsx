@@ -65,6 +65,14 @@ const Hook = () => {
     console.log("count가 실행되었습니다")
   },[count])
 
+  useEffect(()=>{
+    // useEffect에서 컴포넌트가 삭제될 때 실행할 내용을 작성할 수 있다
+    // 두번째 값에 [] 빈 배열을 넣고, return에 원하는 함수 내용 작성
+    // 라이프 사이클 중 생성과 삭제할 때만 실행하고 싶으면
+    // 반드시 두번째 값에 [] 빈 배열을 넣고 작성
+    return console.log('삭제되었습니다')
+  },[])
+
 
   // ❤ useRef
   // useRef를 통해서 DOM을 들고와서 확인
@@ -77,17 +85,8 @@ const Hook = () => {
     const b = Math.floor(Math.random()*255);
     inputElement.current.style.color = `rgb(${r},${g},${b})`;
     document.title = `현재 time${time}`;
-    document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
+    //document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
   },[time])
-
-  useEffect(()=>{
-    // useEffect에서 컴포넌트가 삭제될 때 실행할 내용을 작성할 수 있다
-    // 두번째 값에 [] 빈 배열을 넣고, return에 원하는 함수 내용 작성
-    // 라이프 사이클 중 생성과 삭제할 때만 실행하고 싶으면
-    // 반드시 두번째 값에 [] 빈 배열을 넣고 작성
-    return console.log('삭제되었습니다')
-  },[])
-
 
   return ( 
     <div>
