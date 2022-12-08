@@ -24,7 +24,7 @@ function App() {
   // 오류가 났을 때는 전체가 출력되지 않는다
   return (
     <div className="App">
-      <TestRootIndex />
+      <RootIndex />
     </div>
   );
 }
