@@ -13,6 +13,7 @@ import TestAPI from './components/TestAPI';
 import RootIndex from './page/RootIndex';
 import TestRootIndex from './page/TestRouteIndex';
 import StoreIndex from './Redux/StoreIndex';
+import ReduxTookitIndex from './ReduxToolkit/ReduxToolkitIndex';
 
 // App 안에 원하는 내용을 바로 작성할 수 있지만
 // 각 내용으 컴포넌트로 만들어서 화면에 출력을 하고 있다
@@ -25,7 +26,7 @@ function App() {
   // 오류가 났을 때는 전체가 출력되지 않는다
   return (
     <div className="App">
-      <StoreIndex />
+      <ReduxTookitIndex />
     </div>
   );
 }
