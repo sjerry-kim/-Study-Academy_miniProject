@@ -26,8 +26,6 @@ const numberSlice = createSlice({
 })
 
 // 사용할 액션 함수 내보내기 - numberSlice에서 가져옴
-export const {increase} = numberSlice.actions;
-export const {decrease} = numberSlice.actions;
-export const {setNum} = numberSlice.actions;
+export const {increase, decrease, setNum} = numberSlice.actions;
 // 사용할 리듀서 내보내기 - numberSlice에서 가져옴
 export default numberSlice.reducer;
